@@ -26,4 +26,5 @@ def remove_non_strings (array)
       new_array << element
     end
   end
+  new_array
 end
