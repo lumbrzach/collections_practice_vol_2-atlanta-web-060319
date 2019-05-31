@@ -18,3 +18,12 @@ end
 def first_wa (array)
   array.find {|i| i.downcase.to_s.start_with?("wa")}
 end
+
+def remove_non_strings (array)
+  array = []
+  array.each do |element|
+    binding.pry
+    if element
+    end
+  end
+end
