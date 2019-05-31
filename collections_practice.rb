@@ -30,5 +30,8 @@ def remove_non_strings (array)
 end
 
 def count_elements (array)
-  array.each {|element| array.count(element)}
+  new_array = []
+  array.each do |element|
+    
+  end
 end
