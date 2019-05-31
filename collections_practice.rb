@@ -23,7 +23,5 @@ def remove_non_strings (array)
   array = []
   array.each do |element|
     binding.pry
-    if element
-    end
   end
 end
