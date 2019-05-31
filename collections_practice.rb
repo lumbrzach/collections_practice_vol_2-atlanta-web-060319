@@ -20,8 +20,10 @@ def first_wa (array)
 end
 
 def remove_non_strings (array)
-  array = []
+  new_array = []
   array.each do |element|
-    binding.pry
+    if element.class == String
+      new_array << element
+    end
   end
 end
