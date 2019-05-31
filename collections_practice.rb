@@ -16,5 +16,5 @@ def contain_a (array)
 end
 
 def first_wa (array)
-  array.all? {|i| i.downcase.start_with("wa")}
+  array.all? {|i| i.downcase.start_with?("wa")}
 end
